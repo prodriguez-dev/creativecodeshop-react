@@ -336,8 +336,8 @@ NavBar.propTypes = {
 
 //Default Props
 NavBar.defaultProps = {
-    MainLogo: require('../assets/img/logo.png'),
-    Logo2: require('../assets/img/logo2.png'),
+    MainLogo: require('../assets/img/ccs-logo.png'),
+    Logo2: require('../assets/img/ccs-logo2.png'),
     mailLink: "mailto:info@creativecodeshop",
     mail: "info@creativecodeshop.com ",
     numberLink: "callto:+19706803358",

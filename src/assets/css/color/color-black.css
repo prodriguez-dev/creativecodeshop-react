@@ -1,115 +1,115 @@
 /*
- Default: #222222;
- */ 
+ Default: #101010;
+ */
 
  h2, a:focus {
-    color: #222222;
+    color: #101010;
 }
 .button, .center-wrap button button {
-	border: 1px solid #222222;
-    background-color: #222222;
+	border: 1px solid #101010;
+    background-color: #101010;
 }
 .plan .button:hover {
-	border-color: #222222;
+	border-color: #101010;
 }
 .plan .button a, .glyph i {
-	color: #222222;
+	color: #101010;
 }
 
 .plan.featured .button {
-	background-color: #222222;
+	background-color: #101010;
 }
 .social-icons ul li a:hover {
-	background-color: #222222;
-} 
+	background-color: #101010;
+}
 .navbar-light .navbar-nav > .nav-item:hover,
 .navbar-light .navbar-nav > .nav-item:active {
-	background-color: #e74c14;
+	background-color: #101010;
 }
 
 .owl-thumb-item i {
-    color: #222222;
+    color: #101010;
 }
 .navbar-light .navbar-nav .nav-link.active{
-	background-color: #e74c14 !important;
+	background-color: #101010 !important;
 }
 
 .navbar-light.fixed-top, .search-modal, .home-video-area::before, .owl-thumb-item.active, .owl-thumb-item:hover {
-    background-color: #222222;
+	background-color: #202020;
 }
 .navbar-light.fixed-top {
-    background-color: #fe5619 !important;
+    background-color: #505050 !important;
 }
 .filter-menu button.programs-filter-btn-active, .filter-menu button:hover {
-	background-color: #222222;
+	background-color: #101010;
 }
 .work-details .icon li a, .team-box .title, .team-box .icon li a, .team-slides .owl-nav div {
 	color: #fe5619 !important;
 }
 .team-box .icon li a:hover {
-	background: #222222;
+	background: #101010;
 }
 .date-box {
-	background-color: #222222;
+	background-color: #101010;
 }
 .blog-item:hover .title-meta h2 a {
-    color: #222222;
+    color: #101010;
 }
 .post-meta ul li a:hover {
-	color: #222222;
+	color: #101010;
   }
   .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
-	background-color: #222222;
-	border-color: #222222;
+	background-color: #101010;
+	border-color: #101010;
 }
-.side-widget h3::before { 
-	background: #222222;
+.side-widget h3::before {
+	background: #101010;
 }
 .search-form .btn-default {
-	border-color: #222222;
-	background: #222222;
+	border-color: #101010;
+	background: #101010;
 }
 .side-widget .list-group li a:hover {
-	color: #222222;
+	color: #101010;
 }
 .single-post h4 a:hover {
-	color: #222222;
+	color: #101010;
 }
 .list-tags li a:hover {
-    background-color: #222222;
+    background-color: #101010;
 }
 .sharing-link ul li i:hover {
-    background-color: #222222;
+    background-color: #101010;
 }
 .content-box:hover .box-icon-effect-1a .box-icon i {
-    color: #222222;
+    color: #101010;
 }
 .work-details .box-content{
-	background: #222222;
+	background: #101010;
 }
 .comments-title::before {
-	background: #222222;
+	background: #101010;
 }
 .single-comment .reply:hover {
-	background-color: #222222;
+	background-color: #101010;
 }
 .video-area:before {
-	background: #222222;
+	background: #101010;
 }
 .plus, .post-meta ul li .fa {
-	color: #222222;
-} 
+	color: #101010;
+}
 .plus:hover {
-	color: #222222;
+	color: #101010;
 }
 .tab-menu ul li.active a {
-	background-color: #222222;
+	background-color: #101010;
 }
 .plan.featured .listing-badges .featured {
-	color: #222222;
+	color: #101010;
 }
 .plan.featured .plan-price, .content-box.color-effect-1, .footer  {
-	background-color: #222222;
+	background-color: #101010;
 }
 .single-testimonial-item i, .partners-slides .owl-nav div {
     color: #fe5619 !important;
@@ -118,8 +118,8 @@
 	color: #fe5619 !important;
  }
  .panel-title a:before, .panel-title a.collapsed:before {
-	color: #222222;
-	border: 1px solid #222222;
+	color: #101010;
+	border: 1px solid #101010;
 }
 .social-icons.bottom ul li a {
 	background-color: #9e3610;
@@ -128,11 +128,11 @@
     color: #9e3610;
 }
 .about-info i {
-    color:#222222;
+    color:#101010;
 }
 .about-info:hover {
-    background-color: #222222;
+    background-color: #101010;
 }
 .plan .btn-a {
-    color: #222222;
+    color: #101010;
 }

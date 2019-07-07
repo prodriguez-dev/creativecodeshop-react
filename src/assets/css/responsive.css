@@ -55,7 +55,7 @@
         left: 15px;
     }
    .logo img {
-        width: 50px;
+        width: 175px;
     }
     .address-bar {
         margin-left: auto;
@@ -331,7 +331,7 @@
     }
     .slide-service-item {
         background-color: #f7f7f7;
-        
+
     }
     .slide-service-item::before {
         display: none;

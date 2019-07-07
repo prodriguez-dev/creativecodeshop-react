@@ -11,7 +11,7 @@ import "animate.css/animate.min.css";
 //Template CSS Style
 import "../src/style.css";
 import "./assets/css/responsive.css";
-import "./assets/css/color/color-default.css"
+import "./assets/css/color/color-black.css"
 
 
 //Import Component
@@ -27,7 +27,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <Page loader={"comet-spin"} color={"#fe5619"} size={50}>
+                <Page loader={"comet-spin"} color={"#101010"} size={50}>
                     <div>
                         <Route
                             render={({ location }) => (

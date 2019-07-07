@@ -43,10 +43,12 @@ This files contents are outlined below>>>>>
 /* =========================
     Default CSS
    ========================= */
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Asap:300,300i,400,400i,500,500i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,300i,400,400i,500,500i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans:300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 html, body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Encode Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #848484;
@@ -306,20 +308,26 @@ button {
     Top Header CSS
    ========================= */
 .top-header {
-    background-color: #eeeeee;
+    background-color: #505050;
     color: #848484;
     padding: 10px 0 10px;
 }
 .glyph i {
     font-size: 60px;
 }
-.address-bar {
-	background-color: #eee;
-	margin-left: 104px;
+.address-bar {	margin-left: 190px;
 }
 .address-bar ul li a {
 	color: #9a9a9a;
-	font-size: 14px;
+    font-size: 14px;
+    font-family: 'Encode Sans', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+.address-bar ul li a:hover {
+    color: #d0d0d0;
+}
+.address-bar ul li a:active {
+    color: #fff;
 }
 .social-icons {
     text-align: right;
@@ -343,13 +351,17 @@ button {
 .navbar-light {
     transition: .6s;
     -webkit-transition: .6s;
-    background-color: #e9dbc8 !important;
+    background-color: #707070 !important;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #000;
-    padding: 15px 15px;
+    color: #202020;
+    padding: 15px 20px;
     text-transform: uppercase;
     cursor: pointer;
+    font-family: 'Encode Sans', Helvetica, Arial, sans-serif !important;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: #fff;
@@ -377,7 +389,7 @@ button {
     cursor: pointer;
 }
 .menu-shrink {
-    box-shadow: 0 0 10px #ebebeb;
+    box-shadow: 0 0 10px #101010;
 }
 .menu-shrink .navbar-nav .nav-link {
     color: #fff !important;
