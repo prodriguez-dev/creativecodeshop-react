@@ -418,7 +418,7 @@ button {
 .header-search .search-toggle {
   background-color: transparent;
   border: medium none;
-  color: #575757;
+  color: #202020;
   display: block;
   padding: 0;
 }
@@ -486,7 +486,7 @@ button {
     Slider Area CSS
    ========================= */
 .slide-bg-1 {
-    background-image: url(assets/img/slide-bg-1.jpg);
+    background-image: url(assets/img/hero-2-1920x700.jpg);
 }
 .slide-bg-2 {
     background-image: url(assets/img/slide-bg-2.jpg);

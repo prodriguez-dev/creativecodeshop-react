@@ -23,18 +23,18 @@ class Contact extends Component {
             .post("https://formcarry.com/s/qJalZsYuqY-", this.state, {
                 headers: { Accept: "application/json" }
             })
-            .then(function(response) {
+            .then(function (response) {
                 document.getElementById("contactForm").reset();
                 that.setState({
                     successMsg: "Thank you! We received your message"
                 });
                 document.getElementById("contactForm").reset();
             })
-            .catch(function(error) {});
+            .catch(function (error) { });
     };
 
     handleFields = e => this.setState({ [e.target.name]: e.target.value });
-    
+
     render() {
         return (
             <React.Fragment>
@@ -49,24 +49,24 @@ class Contact extends Component {
                                         <span className="section-title-bg">{this.props.SectionbgTitle}</span>
                                     </div>
                                 </ScrollAnimation>
-                        </div>
+                            </div>
                         </div>
 
                         <div className="row">
                             <div className="col-lg-4 col-md-4">
                                 <div className="address-area">
                                     <div className="addess">
-                                        <Icofont icon="icofont-google-map"/>
+                                        <Icofont icon="icofont-google-map" />
                                         <h4>{this.props.AddTitle}</h4>
                                         <p>{this.props.Address}</p>
                                     </div>
                                     <div className="email">
-                                        <Icofont icon="icofont-email"/>
+                                        <Icofont icon="icofont-email" />
                                         <h4>{this.props.EmailTitle}</h4>
                                         <p>{this.props.Email}</p>
                                     </div>
                                     <div className="phone">
-                                        <Icofont icon="icofont-phone"/>
+                                        <Icofont icon="icofont-phone" />
                                         <h4>{this.props.PhoneTitle}</h4>
                                         <p>{this.props.Phone}</p>
                                     </div>
@@ -181,20 +181,20 @@ class Contact extends Component {
 
                                         <div className="center-wrap">
                                             <div className="button">
-                                                <button type="submit">Submit <Icofont icon="icofont-long-arrow-right"/> </button>
+                                                <button type="submit">Submit <Icofont icon="icofont-long-arrow-right" /> </button>
                                                 <div className="mask"></div>
                                             </div>
                                         </div>
                                         <div className="clearfix" />
                                     </ValidationForm>
                                     {this.state.successMsg !== "" ? (
-                                        <div className="col-md-12"> 
+                                        <div className="col-md-12">
                                             <div id="contact_send_status">
                                                 <h3 className="contactMsg">
                                                     {this.state.successMsg}
                                                 </h3>
                                             </div>
-                                         </div>
+                                        </div>
                                     ) : null}
                                 </div>
                             </div>
@@ -224,12 +224,12 @@ Contact.propTypes = {
 Contact.defaultProps = {
     SectionbgTitle: "Contact",
     sectionTitle: "Our Contact",
-    sectionDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+    sectionDescription: "Have work related questions? Just want to chat? Reach out and say hello.",
     AddTitle: "Address",
-    Address: "2750 Quadra Street Victoria, Canada.",
+    Address: "Denver, Colorado USA",
     EmailTitle: "Email",
-    Email: "roxy@gmail.com",
+    Email: "info@creativecodeshop.com",
     PhoneTitle: "Phone",
-    Phone: "+1-325-555-0156",
+    Phone: "+1-970-680-3358",
 };
 export default Contact;
